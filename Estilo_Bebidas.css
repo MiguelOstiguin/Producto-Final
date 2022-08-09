@@ -1,0 +1,135 @@
+footer{
+	width: 100%;
+	height: 49px;
+	padding-bottom: 16px;
+	padding: 1em 0;
+	background:  #222;
+	background: rgb(0, 0, 0, 0.90);
+	border-top: 2px solid #DD7137;
+	z-index: 2000;
+	text-align: center;
+	position: absolute; /*Utilizamos 'fixed' para situarlo siempre en el lugar que corresponde*/
+	bottom: 0; /*Siempre estará en la parte inferior de la página*/
+	margin-top: auto;
+}
+
+.bebida_1 img{
+	position: absolute;
+	align-items: center;
+	text-align: center;
+	top: 25%;
+	left: 10%;
+}
+
+#marca_1{
+	position: absolute;
+	top: 18%;
+	left: 10%;
+}
+
+#marca_1 label{
+	position: absolute;
+	text-align: center;
+	top: 225px;
+	width: 250px;
+}
+
+.bebida_2 img{
+	position: absolute;
+	align-items: center;
+	text-align: center;
+	top: 25%;
+	left: 30%;
+	text-align: center;
+}
+
+#marca_2{
+	position: absolute;
+	top: 18%;
+	left: 30%;
+}
+
+#marca_2 label{
+	position: absolute;
+	text-align: center;
+	top: 225px;
+	width: 250px;
+}
+
+.bebida_3 img{
+	position: absolute;
+	align-items: center;
+	text-align: center;
+	top: 25%;
+	left: 50%;
+	text-align: center;
+}
+
+#marca_3{
+	position: absolute;
+	top: 18%;
+	left: 50%;
+}
+
+#marca_3 label{
+	position: absolute;
+	text-align: center;
+	top: 225px;
+	width: 250px;
+}
+
+.bebida_4 img{
+	position: absolute;
+	align-items: center;
+	text-align: center;
+	top: 25%;
+	left: 70%;
+	text-align: center;
+}
+
+#marca_4{
+	position: absolute;
+	top: 18%;
+	left: 70%;
+}
+
+#marca_4 label{
+	position: absolute;
+	text-align: center;
+	top: 225px;
+	width: 250px;
+}
+
+#descripcion{
+	position: absolute;
+	top: 75%;
+	left: 8%;
+	font-size: 150%;
+}
+
+.boton{
+	width: 30%;
+	color: white;
+	background-color: #DD7137;
+	border: 2px solid #DD7137;
+	padding: .25rem;
+	border-radius: .2rem;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.boton:hover{
+	background: transparent;
+	border: 2px solid #DD7137;
+}
+
+#seleccion{
+	width: 35px;
+	color: white;
+	background-color: #494949;
+	border: 2px solid white;
+	padding: .25rem;
+	border-radius: .2rem;
+	display: inline-block;
+}
