@@ -1,0 +1,106 @@
+footer{
+	width: 100%;
+	height: 49px;
+	padding-bottom: 16px;
+	padding: 1em 0;
+	background:  #222;
+	background: rgb(0, 0, 0, 0.90);
+	border-top: 2px solid #DD7137;
+	z-index: 2000;
+	text-align: center;
+	position: absolute; /*Utilizamos 'fixed' para situarlo siempre en el lugar que corresponde*/
+	bottom: 0; /*Siempre estará en la parte inferior de la página*/
+	margin-top: auto;
+}
+
+#Corte_1{
+	position: absolute;
+	top: 200px;
+	left: 3%;//6%
+	width: 250px;
+	text-align: center;
+}
+
+#Corte_2{
+	position: absolute;
+	top: 200px;
+	left: 28%;//31%
+	width: 250px;
+	text-align: center;
+}
+
+#Corte_3{
+	position: absolute;
+	top: 200px;
+	left: 53%;//56%
+	width: 250px;
+	text-align: center;
+}
+
+#Corte_4{
+	position: absolute;
+	top: 200px;
+	left: 78%;//81%
+	width: 250px;
+	text-align: center;
+}
+
+
+#Corte_5{
+	position: absolute;
+	top: 700px;
+	left: 3%;
+	width: 250px;
+	text-align: center;
+}
+
+#Corte_6{
+	position: absolute;
+	top: 700px;
+	left: 28%;
+	width: 250px;
+	text-align: center;
+}
+
+#Corte_7{
+	position: absolute;
+	top: 700px;
+	left: 53%;
+	width: 250px;
+	text-align: center;
+}
+
+#Corte_8{
+	position: absolute;
+	top: 700px;
+	left: 78%;
+	width: 250px;
+	text-align: center;
+}
+
+.boton{
+	width: 30%;
+	color: white;
+	background-color: #DD7137;
+	border: 2px solid #DD7137;
+	padding: .25rem;
+	border-radius: .2rem;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.boton:hover{
+	background: transparent;
+	border: 2px solid #DD7137;
+}
+
+#seleccion{
+	width: 35px;
+	color: white;
+	background-color: #494949;
+	border: 2px solid white;
+	padding: .25rem;
+	border-radius: .2rem;
+	display: inline-block;
+}

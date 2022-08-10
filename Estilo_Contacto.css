@@ -1,0 +1,74 @@
+.Contenedor{
+	background: #494949;
+	font-family: 'Arial Rounded MT Bold', sans-serif;
+	font-size: 18px;
+	width: 92%;
+	margin: 40px;
+}
+
+.Formulario .Contenedor_Inputs{
+	padding: 25px;
+	background: #494949;
+	border-radius: 10px 10px 0 0;
+}
+
+.Formulario input[type="text"], .Formulario input[type="correo"]{
+	display: block;
+	width: 97%;
+	margin-bottom: 20px;
+	padding: 15px 10px;
+	border: none;
+	/*border-bottom: 2px solid black;*/
+	font-family: 'Arial Rounded MT Bold', sans-serif;
+	font-size: 18px;
+}
+
+/*.Formulario input[type="text"]:focus, .Formulario input[type="correo"]:focus{
+	border-bottom: 5px solid red;
+}*/
+
+.Formulario .btn{
+	width: 100%;
+	text-align: center;
+	background: #DD7137;
+	color: white;
+	border: none;
+	display: block;
+	padding: 10px 10px;
+	cursor: pointer;
+	border-radius: 0 0 6px 6px;
+	font-family: 'Arial Rounded MT Bold', sans-serif;
+	font-size: 18px;
+}
+
+.Formulario .btn:hover{
+	background: #FFC196;
+	color: #DD7137;
+	font-weight: bolder;
+}
+
+.Box .Imagen_Corte{
+	margin-top: 40px;
+	margin-right: 45px;
+}
+
+.Box2{
+	display: flex;
+	justify-content: center;
+}
+
+.Info_Redes{
+	margin: 30px;
+}
+
+.Caja_RedSocial{
+	margin: 30px;
+}
+
+.Caja_RedSocial img{
+	margin: 0 10px;
+}
+
+body section{
+	text-align: center;
+}
